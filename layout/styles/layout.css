@@ -36,7 +36,7 @@ File: Layout CSS
 #pageintro{padding:180px 0;}
 
 #pageintro article{display:block; max-width:50%;}
-#pageintro .heading{margin-bottom:20px; font-size:4rem;}
+#pageintro .heading{margin-bottom:20px; font-size:4rem; font-weight: bold;}
 #pageintro p{}
 #pageintro footer{margin-top:50px;}
 
@@ -50,7 +50,7 @@ File: Layout CSS
 
 .sectiontitle{display:block; max-width:50%; margin:0 auto 100px; text-align:center;}
 .sectiontitle *{margin:0;}
-.sectiontitle .heading{margin-bottom:20px;}
+.sectiontitle .heading{margin-bottom:20px; font-weight: bold;}
 
 .posts figure{display:block; margin-bottom:50px;}
 .posts figure:last-child{margin-bottom:0;}/* Used when elements stack in small viewports */
@@ -60,7 +60,7 @@ File: Layout CSS
 .posts figure figcaption{padding:50px 0 0 50px;}
 .posts figure figcaption{}
 .posts figure figcaption *{margin:0;}
-.posts figure figcaption .heading{margin-bottom:30px;}
+.posts figure figcaption .heading{margin-bottom:30px; font-weight: bold;}
 .posts figure figcaption footer{margin-top:30px;}
 .posts figure:nth-child(even) > div{float:right;}
 .posts figure:nth-child(even) figcaption{float:left; padding-left:0; padding-right:50px;}
@@ -78,7 +78,7 @@ File: Layout CSS
 .latest{}
 .latest > li:last-child{margin-bottom:0;}/* Used when elements stack in small viewports */
 .latest article{padding:30px;}
-.latest article .heading{}
+.latest article .heading{font-weight: bold;}
 .latest article p{}
 .latest article .meta{}
 .latest article .meta li{display:inline-block; font-size:.8rem; line-height:1;}
@@ -123,9 +123,9 @@ File: Layout CSS
 --------------------------------------------------------------------------------------------------------------- */
 #footer{padding:80px 0;}
 
-#footer .heading{margin-bottom:50px;}
+#footer .heading{margin-bottom:50px; font-weight: bold;}
 
-#footer > div:first-of-type .heading{margin-bottom:20px; text-transform:uppercase; font-size:1.8rem;}
+#footer > div:first-of-type .heading{margin-bottom:20px; text-transform:uppercase; font-size:1.8rem; font-weight: bold;}
 #footer > div:first-of-type .faico{margin-bottom:30px;}
 
 #footer .linklist li{display:block; margin-bottom:15px; padding:0 0 15px 0; border-bottom:1px solid;}
@@ -206,7 +206,7 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 #breadcrumb li a::after{top:4px; right:0; content:"\f0da";}
 #breadcrumb li:last-child a{margin:0; padding:0;}
 #breadcrumb li:last-child a::after{display:none;}
-#breadcrumb .heading{margin:0; font-size:2rem;}
+#breadcrumb .heading{margin:0; font-size:2rem; font-weight: bold;}
 
 /* Sidebar Navigation */
 .sidebar nav{display:block; width:100%;}
@@ -414,7 +414,7 @@ table a, #comments a{background-color:inherit;}
 	.one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter{display:block; float:none; width:auto; margin:0 0 30px 0; padding:0;}
 
 	#pageintro article{max-width:none;}
-	#pageintro .heading{font-size:2rem;}
+	#pageintro .heading{font-size:2rem; font-weight: bold;}
 
 	.sectiontitle{max-width:none; margin-bottom:50px; text-align:left;}
 	.posts figure{max-width:570px;}/* Same width as the image */

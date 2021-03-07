@@ -93,6 +93,11 @@ It should be used in conjunction with a second class or ID
 --------------------------------------------------------------------------------------------------------------- */
 address, article, aside, figcaption, figure, footer, header, main, nav, section{display:block; margin:0; padding:0;}
 
+img.resize {
+    max-width:25%;
+    max-height:25%;
+  }
+
 
 /* Grid - RS-MQF 1140 V.2 - https://www.os-templates.com/free-basic-html5-templates/rs-mqf-1140
 --------------------------------------------------------------------------------------------------------------- */

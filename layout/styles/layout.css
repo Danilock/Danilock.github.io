@@ -282,6 +282,15 @@ input:focus, textarea:focus, *:required:focus{border-color:#9099AA !important;}
 .imgover:hover::before{background:rgba(0,0,0,.55);}
 .imgover, .imgover:hover::after{color:#9099AA;}
 
+.SocialButton {
+    padding: 10px 10px 10px 36px;
+    font-family: "Trebuchet MS", Arial, Verdana;
+    border-radius: 16px;
+    border: 1px solid #d9d9d9;
+    text-shadow: 1px 1px #fff; 
+	float: left;      
+	margin-right: 10px;
+}
 
 /* Rows */
 .row0, .row0 a{color:#FFFFFF;}

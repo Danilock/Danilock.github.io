@@ -284,10 +284,12 @@ input:focus, textarea:focus, *:required:focus{border-color:#9099AA !important;}
 
 .SocialButton {
     padding: 10px 10px 10px 36px;
+	height: 55px;
+	width: 120px;
     font-family: "Trebuchet MS", Arial, Verdana;
     border-radius: 16px;
     border: 1px solid #d9d9d9;
-    text-shadow: 1px 1px #fff; 
+    text-shadow: 1px 1px rgb(0, 0, 0); 
 	float: left;      
 	margin-right: 10px;
 }
